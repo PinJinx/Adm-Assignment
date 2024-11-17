@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADM ASSIGNMENT</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <h1 id="h1">Indian Education Pre and Post British Era</h1>
+    <div class="scroll-container">
+        <input type="range" min="1855" max="1957" value="1855" class="horizontal-scroll" id="scrollBar">
+    </div>
+    <div class="value-box" id="valueBox">1855</div>
+
+    <div class="grid-container">
+        <div class="grid-item" >
+            <h3>Number of Primary Schools</h3>
+            <p class="placeholder" id="val1">123</p>
+        </div>
+        <div class="grid-item">
+            <h3>Number of Secondary Schools</h3>
+            <p class="placeholder" id="val2">456</p>
+        </div>
+        <div class="grid-item">
+            <h3>Universities</h3>
+            <p class="placeholder" id="val3">10</p>
+        </div>
+        <div class="grid-item">
+            <h3>Total number of Educational Institutions</h3>
+            <p class="placeholder" id="val5">10</p>
+        </div>
+        <div class="grid-item progress-container">
+            <h3>Percentile of girls w.r.t scholars</h3>
+            <div class="circular-progress" id="circularProgressGirls">
+                <span class="progress-value" id="val6">0%</span>
+            </div>
+        </div>
+        <div class="grid-item progress-container">
+            <h3>Literacy Rates</h3>
+            <div class="circular-progress" id="circularProgressScholars">
+                <span class="progress-value" id="val7">0%</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="chart-container">
+        <canvas id="literacyRateChart"></canvas>
+    </div>
+    
+    <h1>Disclaimer:</h1>
+    <p>Most of the values that are represented here are values derived from linearly interprinting or approximating a set of data sourced from trusted websites and books and may only be partially accurate</p>
+    <h3>This project was done as a part of ADM assignment by:</h3>
+    <p>Rohith K Pradeep   ,   Reyhan Renjith Mangattu   ,   Abishek J   ,   Vimal R   ,   Samineni Praneeth Sai    ,    AP Girisankar</p>
+</body>
+<script src="./script.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</html>
